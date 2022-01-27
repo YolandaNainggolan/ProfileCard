@@ -1,0 +1,95 @@
+
+body {
+  background-color: #19A2AE;
+  background-image: url('images/bg-pattern-top.svg'), url('images/bg-pattern-bottom.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left 0 top -13em, right -5em bottom -20em;
+  font-family: 'Kumbh Sans', sans-serif;
+  height: auto;
+  margin: auto;
+}
+
+h2{
+  font-size: 18px;
+  margin-top: 80px;
+  font-weight: 700;
+}
+
+h3{
+  font-size: 18px;
+  margin: 10px auto 1px auto;
+  font-weight: 700;
+}
+
+hr {
+  color: grey;
+}
+
+p {
+  color: grey;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 3px auto 20px auto;
+}
+
+.age {
+  color: grey;
+  display: inline-block;
+  margin-top: 70px;
+}
+
+.card-content{
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 13px 26px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);
+  display: block;
+  margin: auto;
+  margin-top: 160px;
+  text-align: center;
+  width: 23%;
+}
+
+.name {
+  display: inline-block;
+  font-weight: bold;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.profile-bg{
+  background: url("images/bg-pattern-card.svg");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.profile-img{
+  border-radius: 50%;
+  border: 5px solid white;
+  position: relative;
+  top: 60px;
+}
+
+.profile-card-followers{
+  display: inline-block;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.profile-card-likes{
+  display: inline-block;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.profile-card-photos{
+  display: inline-block;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.social-stat p{
+  font-size: 10px;
+  margin-bottom: 20px;
+}
